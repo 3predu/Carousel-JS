@@ -3,7 +3,7 @@ window.load = slide(1);
 var bgNumber = 1;
 
 function slide(n){
-    let allBgs = 4;
+    let allBgs = 5;
     document.getElementById('img-back').style.backgroundImage = "url('images/"+n+".jpg')";
     botoes(n, allBgs);
     bgNumber = n;
@@ -15,7 +15,7 @@ function btanterior(){
     }
 }
 function btposterior(){
-    if(bgNumber < 4){
+    if(bgNumber < 5){
         bgNumber++;
         slide(bgNumber);
     }
