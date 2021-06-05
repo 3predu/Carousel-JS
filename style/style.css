@@ -1,0 +1,71 @@
+/*RESET CSS*/
+*{
+   margin: 0 auto;
+   padding: 0;
+}
+body{
+   background:  #161616;
+   font-family: 'Roboto Mono', monospace;
+}
+.txt-title{
+   font-family: 'Odibee Sans', cursive;
+   color: #ffffff;
+   text-align: center;
+   margin-top: 5px;
+}
+#container{
+   margin: 50px auto 50px auto;
+   width: 1100px;
+   height: 732px;
+   background: #000000;
+   overflow: hidden;
+}
+#img-back{
+   width: 1100px;
+   height: 732px;
+   background-size: cover;
+   transition: 0.5s;
+}
+
+/* CONFIG BOTÕES*/
+
+.bt-ant, .bt-pos{
+   position: relative;
+   margin-top: -426px;
+   width: 65px;
+   height: 120px;
+   background-color: rgba(44, 62, 80, .4);
+   color: #fff;
+   font-size: 25px;
+   text-align: center;
+   line-height: 120px;
+   cursor: pointer;
+}
+.bt-ant{
+   float: left;
+}
+.bt-pos{
+   float: right;
+}
+.bt-ant:hover{
+   background-color: rgba(44, 62, 80, .9) !important;
+}
+.bt-pos:hover{
+   background-color: rgba(44, 62, 80, .9) !important;
+}
+/*BOTÕES*/
+ul{
+   list-style: none;
+   width: 150px;
+   display: flex;
+}
+ul li{
+   background:  #ffffff;
+   width: 20px;
+   height: 20px;
+   border-radius: 100%;
+   cursor: pointer;
+}
+.selected{
+   background:  #0c0c0c;
+}
